@@ -15,18 +15,7 @@
 		EC95275B1B804DC50098D609 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC95275D1B804DC50098D609 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8EC8885B1D116C780019E432 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC95273A1B8043450098D609 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC9527411B8043450098D609;
-			remoteInfo = "mZone Poker";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8EC888561D116C780019E432 /* mZone PokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mZone PokerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9527421B8043450098D609 /* mZone Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mZone Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9527451B8043450098D609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC9527471B8043450098D609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,13 +28,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8EC888531D116C780019E432 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EC95273F1B8043450098D609 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				EC9527421B8043450098D609 /* mZone Poker.app */,
-				8EC888561D116C780019E432 /* mZone PokerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,24 +71,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EC888551D116C780019E432 /* mZone PokerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EC8885F1D116C780019E432 /* Build configuration list for PBXNativeTarget "mZone PokerTests" */;
-			buildPhases = (
-				8EC888521D116C780019E432 /* Sources */,
-				8EC888531D116C780019E432 /* Frameworks */,
-				8EC888541D116C780019E432 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8EC8885C1D116C780019E432 /* PBXTargetDependency */,
-			);
-			name = "mZone PokerTests";
-			productName = "mZone PokerTests";
-			productReference = 8EC888561D116C780019E432 /* mZone PokerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		EC9527411B8043450098D609 /* mZone Poker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC9527541B8043450098D609 /* Build configuration list for PBXNativeTarget "mZone Poker" */;
@@ -134,10 +97,6 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BHouse;
 				TargetAttributes = {
-					8EC888551D116C780019E432 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = EC9527411B8043450098D609;
-					};
 					EC9527411B8043450098D609 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -158,19 +117,11 @@
 			projectRoot = "";
 			targets = (
 				EC9527411B8043450098D609 /* mZone Poker */,
-				8EC888551D116C780019E432 /* mZone PokerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8EC888541D116C780019E432 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EC9527401B8043450098D609 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,13 +136,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8EC888521D116C780019E432 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EC95273E1B8043450098D609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,14 +146,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8EC8885C1D116C780019E432 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC9527411B8043450098D609 /* mZone Poker */;
-			targetProxy = 8EC8885B1D116C780019E432 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC9527491B8043450098D609 /* Main.storyboard */ = {
@@ -240,34 +176,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8EC8885D1D116C780019E432 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				INFOPLIST_FILE = "mZone PokerTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shoutem.mZone-PokerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mZone Poker.app/mZone Poker";
-			};
-			name = Debug;
-		};
-		8EC8885E1D116C780019E432 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				INFOPLIST_FILE = "mZone PokerTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shoutem.mZone-PokerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mZone Poker.app/mZone Poker";
-			};
-			name = Release;
-		};
 		EC9527521B8043450098D609 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -353,14 +261,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = "mZone Poker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shoutem.mZone-poker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhouse.mZone-Poker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -368,29 +272,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = "mZone Poker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shoutem.mZone-poker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhouse.mZone-Poker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EC8885F1D116C780019E432 /* Build configuration list for PBXNativeTarget "mZone PokerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EC8885D1D116C780019E432 /* Debug */,
-				8EC8885E1D116C780019E432 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		EC95273D1B8043450098D609 /* Build configuration list for PBXProject "mZone Poker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
